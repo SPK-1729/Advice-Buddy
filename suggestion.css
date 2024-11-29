@@ -1,0 +1,66 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f7fa; /* Light gray background */
+    text-align: center; /* Center text within the body */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Center the Header */
+h1 {
+    font-size: 28px;
+    color: #333; /* Dark text color */
+    margin-bottom: 20px; /* Add spacing below the header */
+}
+
+/* Form Container */
+form {
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    text-align: center; /* Center contents inside the form */
+    width: 300px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Message Styling */
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+    text-align: center;
+}
